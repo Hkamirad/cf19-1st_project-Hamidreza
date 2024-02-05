@@ -1,0 +1,368 @@
+body {
+  font-family: poppins;
+}
+body {
+  background-color: #a6ceb6;
+  height: 100%;
+  width: 100%;
+}
+section {
+  width: 95vw;
+
+  margin: 0 auto;
+  margin-top: 145px;
+  margin-bottom: 100px;
+  border-radius: 54px;
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 0px 10px 100px 20px rgba(132, 132, 132, 0.2);
+  padding: 20px;
+  box-sizing: border-box;
+}
+.container {
+  background-color: #f5f3f0;
+  border-radius: 30px;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  gap: 12px;
+  padding: 20px;
+  box-sizing: border-box;
+  grid-template-areas:
+    "nav nav nav recip chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card"
+    "nav nav nav recip chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card"
+    "nav nav nav recip cobb-salad-card cobb-salad-card cobb-salad-card cobb-salad-card cobb-salad-card cobb-salad-card cesar-salad-card cesar-salad-card cesar-salad-card cesar-salad-card cesar-salad-card cesar-salad-card "
+    "nav nav nav recip cobb-salad-card cobb-salad-card cobb-salad-card cobb-salad-card cobb-salad-card cobb-salad-card greek-salad-card greek-salad-card greek-salad-card greek-salad-card greek-salad-card greek-salad-card";
+}
+.container .radius {
+  border-radius: 30px;
+}
+
+.nav {
+  grid-area: nav;
+  border-radius: 30px;
+  border: 1px solid #fff;
+  background-image: linear-gradient(
+    to bottom,
+    #ffece1,
+    #f6f0e0,
+    #ebf5e6,
+    #e4f7f0,
+    #e2f8fa
+  );
+  box-shadow: 10px 10px 24px 0px rgba(204, 203, 203, 0.25);
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.nav .text-header {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  display: inline-block;
+  position: relative;
+}
+.nav h2 {
+  color: #303030;
+  font-family: "Jacques Francois Shadow";
+  font-size: 35px;
+  font-weight: 400;
+  text-shadow: 1px 1px #ffbf00;
+  margin-bottom: 30px;
+}
+.nav .nav-links {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 60px;
+}
+.nav-items p {
+  display: inline-block;
+}
+.nav .nav-links p {
+  margin-left: 8px;
+  color: #303030;
+  font-family: Katibeh;
+  font-size: 24px;
+  font-weight: 400;
+}
+.nav .nav-links .svg {
+  display: flex;
+  margin-bottom: 20px;
+}
+.nav .nav-links svg {
+  width: 20px;
+  height: 20px;
+}
+.nav .nav-card {
+  position: relative;
+  margin-bottom: 8px;
+}
+.nav-card-text {
+  width: 165px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 8px;
+  text-align: center;
+}
+.nav-card-text h3 {
+  color: #000;
+  font-family: "Jacques Francois Shadow";
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+
+#by {
+  margin-bottom: 8px;
+  font-size: 18px;
+}
+.nav-card-text p {
+  color: #303030;
+  font-family: Katibeh;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.nav-card-text.rotate p {
+  margin-top: 16px;
+  font-size: 18px;
+  transform: rotate(2.754deg);
+}
+.nav-card-text #book-now {
+  transform: rotate(-5.347deg);
+  color: #000;
+  font-family: "Jacques Francois Shadow";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.recip {
+  grid-area: recip;
+  display: flex;
+  flex-direction: column;
+}
+.recip .height {
+  height: 25%;
+}
+.recip .height-3 {
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+}
+.recip .rotate {
+  display: flex;
+  /* writing-mode: sideways-lr; */
+  font-family: Katibeh;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: 20px;
+  max-width: 50px;
+  rotate: 270deg;
+  transform: translatey(40%);
+  margin-top: 48px;
+}
+.recip .rotate p {
+  background: -webkit-linear-gradient(#8dd2a8, #a1a1a1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.recip .number {
+  font-family: Katibeh;
+  font-weight: 400;
+  font-size: 52px;
+  text-align: center;
+  color: #bbdac7;
+  margin-bottom: 32px;
+}
+.recip .icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+.recip .icon .green {
+  color: #bbdac7;
+}
+.vl-container {
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.vl {
+  border-left: 1px solid black;
+  height: 100px;
+}
+.fa-angle-down {
+  margin-left: -1px;
+  margin-top: -8px;
+}
+
+.chef-card {
+  grid-area: chef-card;
+  position: relative;
+  background-color: #bbdac7;
+  min-height: 400px;
+}
+.chef-card .text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  max-width: 50%;
+}
+.chef-card .text-container h2 {
+  font-family: Jacques Francois Shadow;
+  font-size: 55px;
+  margin-bottom: 16px;
+  font-weight: 400;
+}
+.chef-card .text-container p {
+  color: #303030;
+  font-family: katibeh;
+  font-size: 40px;
+  font-weight: 400;
+  letter-spacing: 10px;
+}
+.chef-img {
+  position: absolute;
+  width: 55%;
+  bottom: 0px;
+  right: -30px;
+  top: -65px;
+}
+.chef-img img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.cobb-salad-card {
+  grid-area: cobb-salad-card;
+  background-color: #ffece1;
+}
+.recip-card {
+  padding: 24px;
+}
+.recip-card .text-container h2 {
+  font-size: 52px;
+  font-family: Katibeh;
+  margin-bottom: 16px;
+  color: #303030;
+}
+.recip-card .recip-time {
+  margin-bottom: 32px;
+}
+.recip-card .recip-text {
+  max-width: 40%;
+  margin-bottom: 32px;
+}
+.recip-card p {
+  font-family: inter;
+  font-size: 16px;
+  font-weight: 400;
+  color: #303030;
+  line-height: 24px;
+}
+.recip-card .text-small {
+  font-size: 14px;
+}
+.recip-card .recip-container {
+  display: flex;
+  gap: 32px;
+}
+
+.recip-card .image-container img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.cesar-salad-card {
+  grid-area: cesar-salad-card;
+  max-height: 350px;
+  position: relative;
+}
+.small-recip-card {
+  float: right;
+  width: 100%;
+  height: 100%;
+  background-color: #c4eff2;
+  border-radius: 30px;
+  width: 80%;
+  padding: 16px;
+  box-sizing: border-box;
+  /* border-bottom:300px solid #c4eff2;
+  border-left: 40px solid transparent;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  height: 100%; */
+}
+.small-recip-card .image-container {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  max-width: 150px;
+  transform: translateY(-50%);
+}
+.small-recip-card .image-container img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.small-recip-card .text-container {
+  margin-left: 60px;
+}
+.small-recip-card .text-container h2 {
+  font-family: katibeh;
+  font-size: 32px;
+  font-weight: 400;
+  color: #303030;
+  line-height: 36px;
+  margin-bottom: 16px;
+}
+.small-recip-card .text-container p {
+  font-family: Inter;
+  font-size: 14px;
+  margin-bottom: 16px;
+  color: #303030;
+  line-height: 18px;
+}
+.cook-time {
+  display: flex;
+  flex-direction: row;
+}
+.line {
+  border-left: 1px solid;
+  height: 16px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.small-recip-card .text-container p {
+  font-size: 12px;
+}
+.fa-clock-o {
+  padding-right: 6px;
+  font-size: 14px;
+}
+.greek-salad-card {
+  grid-area: greek-salad-card;
+  position: relative;
+}
+.greek-salad-card .greek {
+  background-color: #ffe9a7;
+}

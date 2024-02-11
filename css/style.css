@@ -366,3 +366,48 @@ section {
 .greek-salad-card .greek {
   background-color: #ffe9a7;
 }
+@media screen and (max-width:1250px){
+  .container {
+
+    grid-template-areas:
+      "nav nav nav chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card"
+      "nav nav nav chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card"
+      "nav nav nav cobb-salad-card cobb-salad-card cobb-salad-card cobb-salad-card cobb-salad-card cobb-salad-card cobb-salad-card cesar-salad-card cesar-salad-card cesar-salad-card cesar-salad-card cesar-salad-card cesar-salad-card "
+      "nav nav nav cobb-salad-card cobb-salad-card cobb-salad-card cobb-salad-card cobb-salad-card cobb-salad-card cobb-salad-card greek-salad-card greek-salad-card greek-salad-card greek-salad-card greek-salad-card greek-salad-card";
+  }
+  .recip{
+    display: none;
+  }
+}
+@media screen and (max-width:1100px){
+  .container {
+
+    grid-template-areas:
+      "chef-card  chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card"
+      "chef-card  chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card"
+      "cobb-salad-card  cobb-salad-card cobb-salad-card cobb-salad-card cobb-salad-card cobb-salad-card cobb-salad-card cobb-salad-card cesar-salad-card cesar-salad-card cesar-salad-card cesar-salad-card cesar-salad-card cesar-salad-card cesar-salad-card cesar-salad-card "
+      "cobb-salad-card cobb-salad-card cobb-salad-card cobb-salad-card cobb-salad-card cobb-salad-card cobb-salad-card cobb-salad-card greek-salad-card greek-salad-card greek-salad-card greek-salad-card greek-salad-card greek-salad-card greek-salad-card greek-salad-card";
+  }
+  .nav{
+    display: none;
+  }
+}
+@media screen and (max-width:900px){
+  .container {
+
+    grid-template-areas:
+      "chef-card  chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card"
+      "chef-card  chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card"
+      "cobb-salad-card  cobb-salad-card cobb-salad-card cobb-salad-card cobb-salad-card cobb-salad-card cobb-salad-card cobb-salad-card cesar-salad-card cesar-salad-card cesar-salad-card cesar-salad-card cesar-salad-card cesar-salad-card cesar-salad-card cesar-salad-card "
+      "cobb-salad-card cobb-salad-card cobb-salad-card cobb-salad-card cobb-salad-card cobb-salad-card cobb-salad-card cobb-salad-card greek-salad-card greek-salad-card greek-salad-card greek-salad-card greek-salad-card greek-salad-card greek-salad-card greek-salad-card";
+  }
+  img{
+    display: none;
+  }
+  .chef-card .text-container {
+    max-width: 100%;
+  }
+  .recip-card .recip-text{
+    max-width: 100%;
+  }
+}

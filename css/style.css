@@ -366,48 +366,60 @@ section {
 .greek-salad-card .greek {
   background-color: #ffe9a7;
 }
-@media screen and (max-width:1250px){
+@media screen and (max-width: 1250px) {
   .container {
-
     grid-template-areas:
       "nav nav nav chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card"
       "nav nav nav chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card"
       "nav nav nav cobb-salad-card cobb-salad-card cobb-salad-card cobb-salad-card cobb-salad-card cobb-salad-card cobb-salad-card cesar-salad-card cesar-salad-card cesar-salad-card cesar-salad-card cesar-salad-card cesar-salad-card "
       "nav nav nav cobb-salad-card cobb-salad-card cobb-salad-card cobb-salad-card cobb-salad-card cobb-salad-card cobb-salad-card greek-salad-card greek-salad-card greek-salad-card greek-salad-card greek-salad-card greek-salad-card";
   }
-  .recip{
+  .recip {
     display: none;
   }
 }
-@media screen and (max-width:1100px){
+@media screen and (max-width: 1100px) {
   .container {
-
     grid-template-areas:
       "chef-card  chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card"
       "chef-card  chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card"
       "cobb-salad-card  cobb-salad-card cobb-salad-card cobb-salad-card cobb-salad-card cobb-salad-card cobb-salad-card cobb-salad-card cesar-salad-card cesar-salad-card cesar-salad-card cesar-salad-card cesar-salad-card cesar-salad-card cesar-salad-card cesar-salad-card "
       "cobb-salad-card cobb-salad-card cobb-salad-card cobb-salad-card cobb-salad-card cobb-salad-card cobb-salad-card cobb-salad-card greek-salad-card greek-salad-card greek-salad-card greek-salad-card greek-salad-card greek-salad-card greek-salad-card greek-salad-card";
   }
-  .nav{
+  .nav {
     display: none;
   }
 }
-@media screen and (max-width:900px){
+@media screen and (max-width: 900px) {
   .container {
-
     grid-template-areas:
       "chef-card  chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card"
       "chef-card  chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card"
       "cobb-salad-card  cobb-salad-card cobb-salad-card cobb-salad-card cobb-salad-card cobb-salad-card cobb-salad-card cobb-salad-card cesar-salad-card cesar-salad-card cesar-salad-card cesar-salad-card cesar-salad-card cesar-salad-card cesar-salad-card cesar-salad-card "
       "cobb-salad-card cobb-salad-card cobb-salad-card cobb-salad-card cobb-salad-card cobb-salad-card cobb-salad-card cobb-salad-card greek-salad-card greek-salad-card greek-salad-card greek-salad-card greek-salad-card greek-salad-card greek-salad-card greek-salad-card";
   }
-  img{
+  img {
     display: none;
   }
   .chef-card .text-container {
     max-width: 100%;
   }
-  .recip-card .recip-text{
+  .recip-card .recip-text {
     max-width: 100%;
+  }
+  .small-recip-card {
+    width: 100%;
+  }
+  .small-recip-card .text-container {
+    margin-left: 8px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .container {
+    grid-template-areas:
+      "chef-card"
+      "cobb-salad-card"
+      "cesar-salad-card"
+      "greek-salad-card";
   }
 }

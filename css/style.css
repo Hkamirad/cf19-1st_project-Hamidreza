@@ -244,6 +244,7 @@ section {
   bottom: 0px;
   right: -30px;
   top: -65px;
+  max-width: 557px;
 }
 .chef-img img {
   object-fit: cover;
@@ -377,8 +378,9 @@ section {
   .recip {
     display: none;
   }
+
 }
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1250px) {
   .container {
     grid-template-areas:
       "chef-card  chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card chef-card"
@@ -388,6 +390,11 @@ section {
   }
   .nav {
     display: none;
+  }
+}
+@media screen and (max-width: 1015px) {
+  .food-card img {
+    transform: scale(80%);
   }
 }
 @media screen and (max-width: 900px) {

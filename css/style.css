@@ -288,7 +288,7 @@ section {
 }
 
 .recip-card .image-container img {
-  object-fit: cover;
+  object-fit: contain;
   height: 100%;
   width: 100%;
 }
